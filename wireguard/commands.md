@@ -18,3 +18,15 @@
 
 \## Configuration
 
+&#x09;- Setting up wg0 as a new network interface so wireguard can work its magic and send packets to devices on the virtual IP range
+
+&#x09;	- sudo ip link add dev wg0 type wireguard
+
+
+
+\### Notes
+
+&#x09;- Wireguard dose not use MAC address or ARP to communicate to other devices because there is no physical layer connecting these devices together
+
+&#x09;
+
